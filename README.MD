@@ -4,8 +4,9 @@ L’esercizio è suddiviso in varie milestone ed è molto importante svilupparle
  MILESTONE 1
 Creare una pagina con un form. In questo form l'utente userà un input per selezionare la lunghezza della password da generare.
 Il form redirezionerà su una nuova pagina, che in base alla lunghezza scelta stamperà N volte il carattere "X".
-:avviso: Fatelo con un ciclo che compone una stringa aggiungendo una X per volta e solo poi, alla fine, stampate l'intera stringa.
-:freccetta: Obiettivo: generiamo tante X quante ne richiede l'utente.
+Fatelo con un ciclo che compone una stringa aggiungendo una X per volta e solo poi, alla fine, stampate l'intera stringa.
+
+Obiettivo: generiamo tante X quante ne richiede l'utente.
  
   MILESTONE 2
 Sempre nella seconda pagina create una serie di caratteri consentiti (come stringa? come array?)  dove scriverete tutti i caratteri concessi: lettere maiuscole, minuscole, numeri, simboli... tutto insieme!
@@ -30,3 +31,13 @@ Questo vuol dire che il "dizionario" dei caratteri consentiti andrà popolato in
 Obiettivo: divertirvi e sperimentare.
 ---
 
+esecuzione:
+MILESTONE 1:creazione form con input (probabile type number) che seleziona il numero di lettere per comporre la password
+al submit del form si andrà sulla seconda pagina che stamperà un singolo carattere tante volte quanto è il valore impostato prima.
+cosa serve :
+-due pagine php(una form, l'altra risultati)
+-un form con input e button 
+
+-creo il form(contenente attributo action con valore il percorso del secondo file e attributo method uguale a GET) con input e button 
+-creo seconda pagina
+-eseguo ciclo per generare tante x quant'è il valore dato dall'input 
